@@ -224,5 +224,18 @@
 			"}"
 		],
 		"description": "Add a generic boundary to C4 diagram."
+	},
+	"C4_Note": {
+		"scope": "diagram",
+		"prefix": [
+			"Notes for a object"
+		],
+		"body": [
+			"note ${1:direction} of ${2:alias} {",
+			"   **Note:**",
+			"   ${3:notes}",
+			"  }"
+		],
+		"description": "Notes for a diagramm object."
 	}
 }

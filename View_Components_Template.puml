@@ -7,5 +7,6 @@
 !include ./C4-PlantUML/C4_Component.puml
 
 title Components Template
+LAYOUT_WITH_LEGEND()
 
 @enduml

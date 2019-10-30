@@ -8,5 +8,6 @@
 !include ./C4-PlantUML/C4_Container.puml
 
 title Container Template
+LAYOUT_WITH_LEGEND()
 
 @enduml

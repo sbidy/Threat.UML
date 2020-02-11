@@ -7,7 +7,7 @@
 LAYOUT_WITH_LEGEND()
 'LAYOUT_AS_DRAFT()
 
-Set_Titel("Context Template")
+Set_Title("Context Template")
 Autor("Autors name")
 
 @enduml

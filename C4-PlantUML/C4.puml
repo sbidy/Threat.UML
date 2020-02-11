@@ -53,6 +53,10 @@ skinparam rectangle<<boundary>> {
 ' Layout
 ' ##################################
 
+!define Set_Titel(e_titeltext) title e_titeltext
+
+!define Autor(e_name) center footer (c) e_name - audius GmbH 2020
+
 !definelong LAYOUT_AS_SKETCH
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
@@ -60,7 +64,10 @@ skinparam defaultFontName "Comic Sans MS"
 center footer <font color=red>Warning:</font> Created for discussion, needs to be validated 
 !enddefinelong
 
-center footer (c) Stephan Taub - audius GmbH 2019
+!definelong LAYOUT_AS_DRAFT
+!define Autor(e_name) center footer <font color=red>Warning:</font> Created for discussion, needs to be validated - (c) e_name - audius GmbH 2020
+!define Set_Titel(e_titeltext) title <font color=red>**Draft**</font> - e_titeltext
+!enddefinelong
 
 !define LAYOUT_TOP_DOWN top to bottom direction
 !define LAYOUT_LEFT_RIGHT left to right direction

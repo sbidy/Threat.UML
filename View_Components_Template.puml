@@ -9,7 +9,7 @@
 LAYOUT_WITH_LEGEND()
 'LAYOUT_AS_DRAFT()
 
-Set_Titel("Components Template")
+Set_Title("Components Template")
 Autor("Autors name")
 
 @enduml

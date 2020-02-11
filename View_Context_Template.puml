@@ -4,9 +4,10 @@
 ' Supporting elements: People and software systems directly connected to the software system in scope.
 ' Intended audience: Everybody, both technical and non-technical people, inside and outside of the software development team.
 ' 
-!include ./C4-PlantUML/C4_Context.puml
-
-title Context Template
 LAYOUT_WITH_LEGEND()
+'LAYOUT_AS_DRAFT()
+
+Set_Titel("Context Template")
+Autor("Autors name")
 
 @enduml

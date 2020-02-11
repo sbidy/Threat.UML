@@ -31,8 +31,8 @@ Hit `CRL+Space` to open the prefix menue in VS-Code.
 
 | Prefix        | Description           | Definition  |
 |:-------------|:-------------|:-------|
-|Person with Description     | Add Person to C4 diagram | `Person(alias, label, [description])`|
-|External Person with Description | Add External Person to C4 diagram | `Person_Ext(alias, label, [description])`|
+|Person    | Add Person to C4 diagram | `Person(alias, label, [description])`|
+|External Person | Add External Person to C4 diagram | `Person_Ext(alias, label, [description])`|
 | Container | Add Container to C4 diagram | `Container(alias, label, technology, [descripton])`|
 | Component | Add Component to C4 diagram | `Component(alias, label, technology, [descripton])`|
 | System | Add Systen to C4 diagram | `System(alias, label, [descripton])`|

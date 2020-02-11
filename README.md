@@ -48,3 +48,9 @@ Hit `CRL+Space` to open the prefix menue in VS-Code.
 | Notes for a object | Add Notes for a diagram object. | `Note(left|right|top|buttom, alias, notes)`|
 | Title | Adds the title to the diagram | `Set_Title(Titel)`|
 | Autor | Sets the autor for the diagram | `Autor(Name)`|
+
+### Layout Types
+
+Define the layout with `LAYOUT_WITH_LEGEND()` and `LAYOUT_AS_DRAFT()`.
+The `LAYOUT_AS_DRAFT()` adds some watermarks in the layout to makr the diagram as draft.
+

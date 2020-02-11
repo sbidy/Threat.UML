@@ -237,5 +237,25 @@
 			"  }"
 		],
 		"description": "Notes for a diagramm object."
+	},
+	"C4_Title": {
+		"scope": "diagram",
+		"prefix": [
+			"Title"
+		],
+		"body": [
+			"Set_Title(\"${1:Titel})\""
+		],
+		"description": "Set the title of the diagram"
+	},
+	"C4_Autor": {
+		"scope": "diagram",
+		"prefix": [
+			"Autor"
+		],
+		"body": [
+			"Autor(\"${1:Autor Name})\""
+		],
+		"description": "Set the name of the autor"
 	}
 }

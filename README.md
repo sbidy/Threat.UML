@@ -24,3 +24,27 @@ Project level snippets are now supported in [VSCode 1.28](https://code.visualstu
 Just include the `C4.code-snippets` file in the `.vscode` folder of your project.
 
 It is possible to save them directly inside VS Code: [Creating your own snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_creating-your-own-snippets).
+
+### Snippet lookup / features
+
+Hit `CRL+Space` to open the prefix menue in VS-Code.
+
+| Prefix        | Description           | Definition  |
+|:-------------|:-------------|:-------|
+|Person with Description     | Add Person to C4 diagram | `Person(alias, label, [description])`|
+|External Person with Description | Add External Person to C4 diagram | `Person_Ext(alias, label, [description])`|
+| Container | Add Container to C4 diagram | `Container(alias, label, technology, [descripton])`|
+| Component | Add Component to C4 diagram | `Component(alias, label, technology, [descripton])`|
+| System | Add Systen to C4 diagram | `System(alias, label, [descripton])`|
+| External System | Add external System to C4 diagram | `System_Ext(alias, label, [descripton])`|
+| Database | Add Database to C4 diagram | `ContainerDb(alias, label, technology, [descripton])`|
+| **Relationships** |
+| Relationship with Technology | Add unidirectional Relationship to C4 diagram |  `Rel(from_alias, to_alias, label, technology)`
+| Non-encrypted Relationship with Technology | Add unidirectional Relationship with Technology to C4 diagram |  `Rel_NE(from_alias, to_alias, label, technology)`|
+| **Boundaries** |
+| Boundary with type | Add a generic boundary to C4 diagram. | `Boundary(alias, label, type)`|
+| Boundary without type | Add a generic boundary to C4 diagram. | `Boundary(alias, label)`|
+| **Misc** |
+| Notes for a object | Add Notes for a diagram object. | `Note(left|right|top|buttom, alias, notes)`|
+| Title | Adds the title to the diagram | `Set_Title(Titel)`|
+| Autor | Sets the autor for the diagram | `Autor(Name)`|

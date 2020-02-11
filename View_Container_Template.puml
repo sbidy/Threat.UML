@@ -10,7 +10,7 @@
 LAYOUT_WITH_LEGEND()
 'LAYOUT_AS_DRAFT()
 
-Set_Titel("Container Template")
+Set_Title("Container Template")
 Autor("Autors name")
 
 @enduml

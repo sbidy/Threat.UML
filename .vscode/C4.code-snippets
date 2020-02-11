@@ -244,7 +244,7 @@
 			"Title"
 		],
 		"body": [
-			"Set_Title(\"${1:Titel})\""
+			"Set_Title(\"${1:Titel}\")"
 		],
 		"description": "Set the title of the diagram"
 	},
@@ -254,7 +254,7 @@
 			"Autor"
 		],
 		"body": [
-			"Autor(\"${1:Autor Name})\""
+			"Autor(\"${1:Autor Name}\")"
 		],
 		"description": "Set the name of the autor"
 	}

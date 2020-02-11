@@ -38,13 +38,13 @@ Hit `CRL+Space` to open the prefix menue in VS-Code.
 | System | Add Systen to C4 diagram | `System(alias, label, [descripton])`|
 | External System | Add external System to C4 diagram | `System_Ext(alias, label, [descripton])`|
 | Database | Add Database to C4 diagram | `ContainerDb(alias, label, technology, [descripton])`|
-| **Relationships** |
+| !**Relationships** |
 | Relationship with Technology | Add unidirectional Relationship to C4 diagram |  `Rel(from_alias, to_alias, label, technology)`
 | Non-encrypted Relationship with Technology | Add unidirectional Relationship with Technology to C4 diagram |  `Rel_NE(from_alias, to_alias, label, technology)`|
-| **Boundaries** |
+| !**Boundaries** |
 | Boundary with type | Add a generic boundary to C4 diagram. | `Boundary(alias, label, type)`|
 | Boundary without type | Add a generic boundary to C4 diagram. | `Boundary(alias, label)`|
-| **Misc** |
+| !**Misc** |
 | Notes for a object | Add Notes for a diagram object. | `Note(left|right|top|buttom, alias, notes)`|
 | Title | Adds the title to the diagram | `Set_Title(Titel)`|
 | Autor | Sets the autor for the diagram | `Autor(Name)`|

@@ -53,7 +53,7 @@ skinparam rectangle<<boundary>> {
 ' Layout
 ' ##################################
 
-!define Set_Titel(e_titeltext) title e_titeltext
+!define Set_Title(e_titletext) title e_titletext
 
 !define Autor(e_name) center footer (c) e_name - audius GmbH 2020
 
@@ -66,7 +66,7 @@ center footer <font color=red>Warning:</font> Created for discussion, needs to b
 
 !definelong LAYOUT_AS_DRAFT
 !define Autor(e_name) center footer <font color=red>Warning:</font> Created for discussion, needs to be validated - (c) e_name - audius GmbH 2020
-!define Set_Titel(e_titeltext) title <font color=red>**Draft**</font> - e_titeltext
+!define Set_Title(e_titletext) title <font color=red>**Draft**</font> - e_titletext
 !enddefinelong
 
 !define LAYOUT_TOP_DOWN top to bottom direction

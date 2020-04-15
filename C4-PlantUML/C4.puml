@@ -55,7 +55,7 @@ skinparam rectangle<<boundary>> {
 
 !define Set_Title(e_titletext) title e_titletext
 
-!define Autor(e_name) center footer (c) e_name - audius GmbH 2020
+!define Autor(e_name) center footer (c) e_name - audius GmbH 2020 - **Confidential**
 
 !definelong LAYOUT_AS_SKETCH
 skinparam backgroundColor #EEEBDC

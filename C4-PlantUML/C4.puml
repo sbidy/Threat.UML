@@ -65,7 +65,7 @@ center footer <font color=red>Warning:</font> Created for discussion, needs to b
 !enddefinelong
 
 !definelong LAYOUT_AS_DRAFT
-!define Autor(e_name) center footer <font color=red>Warning:</font> Created for discussion, needs to be validated - (c) e_name - audius GmbH 2020
+!define Autor(e_name) center footer <font color=red>Warning:</font> Created for discussion, needs to be validated - (c) e_name - audius GmbH 2020 - **Confidential**
 !define Set_Title(e_titletext) title <font color=red>**Draft**</font> - e_titletext
 !enddefinelong
 

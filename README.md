@@ -13,6 +13,7 @@ To install and start useing the addon for Visual Studio Code, the following step
    ```
    For the most Linux distributions are packages available.
  3. Clone the repo or extract the zip to your prject folder.
+ 4. Go to the AddOn settings of the Planuml-VS-Code Addon and set the Alternative Jar Location to `C:\ProgramData\chocolatey\lib\plantuml\tools\plantuml.jar`
  
 Done... Now you can use or replicate the templates.
 

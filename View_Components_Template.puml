@@ -4,7 +4,7 @@
 ' Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
 ' Intended audience: Software architects and developers.
 
-!include ./C4-PlantUML/C4_Component.puml
+!includeurl https://raw.githubusercontent.com/sbidy/Threat.UML/git_access/C4-PlantUML/C4_Component.puml
 
 LAYOUT_WITH_LEGEND()
 'LAYOUT_AS_DRAFT()

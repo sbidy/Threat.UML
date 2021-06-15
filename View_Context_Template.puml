@@ -5,7 +5,7 @@
 ' Intended audience: Everybody, both technical and non-technical people, inside and outside of the software development team.
 ' 
 
-!includeurl https://raw.githubusercontent.com/sbidy/Threat.UML/git_access/C4-PlantUML/C4_Context.puml
+!include ./C4-PlantUML/C4_Context.puml
 LAYOUT_WITH_LEGEND()
 'LAYOUT_AS_DRAFT()
 

@@ -55,7 +55,7 @@ skinparam rectangle<<boundary>> {
 
 !define Set_Title(e_titletext) title e_titletext
 
-!define Autor(e_name) center footer <img:img/audius-logo_new.png>\ne_name - audius GmbH 2021 - **Confidential**
+!define Autor(e_name) center footer \ne_name - audius GmbH 2021 - **Confidential**
 
 !definelong LAYOUT_AS_SKETCH
 skinparam backgroundColor #EEEBDC
@@ -65,7 +65,7 @@ center footer <font color=red>Warning:</font> Created for discussion, needs to b
 !enddefinelong
 
 !definelong LAYOUT_AS_DRAFT
-!define Autor(e_name) center footer <img:img/audius-logo_new.png>\n<font color=red>Warning:</font> Created for discussion, needs to be validated e_name - audius GmbH 2021 - **Confidential**
+!define Autor(e_name) center footer \n<font color=red>Warning:</font> Created for discussion, needs to be validated e_name - audius GmbH 2021 - **Confidential**
 !define Set_Title(e_titletext) title <font color=red>**Draft**</font> - e_titletext
 !enddefinelong
 
